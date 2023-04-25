@@ -1,0 +1,1253 @@
+@import '_content/Blazored.Toast/Blazored.Toast.bundle.scp.css';
+
+/* /Components/CharacterFactionSelector.razor.rz.scp.css */
+.PbtASystemContainer[b-2cqxxtf0tq] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+}
+
+.Outer[b-2cqxxtf0tq]{
+    background: var(--Darker);
+    color:white;
+    width:100%;
+}
+
+.PhoneMenuHeader[b-2cqxxtf0tq] {
+    background: #1C1E20;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+}
+
+.PhoneMenuHeaderButton[b-2cqxxtf0tq] {
+    width: 25%;
+    height: 40px;
+    background: #303236;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.PhoneMenuHeaderButtonSelected[b-2cqxxtf0tq] {
+    background: white;
+    color: black;
+}
+
+.PhoneMenuFactionBox[b-2cqxxtf0tq] {
+    border-radius: 10px;
+    background: #303236;
+    overflow: hidden;
+}
+
+.PhoneMenuFactionHeader[b-2cqxxtf0tq] {
+    background-color: #3b3e46;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+    .PhoneMenuFactionHeader:hover[b-2cqxxtf0tq] {
+        background: #2a2c30;
+    }
+
+.PhoneMenuItemButton[b-2cqxxtf0tq] {
+    padding: 15px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+    .PhoneMenuItemButton:last-child[b-2cqxxtf0tq] {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .PhoneMenuItemButton.Selected[b-2cqxxtf0tq] {
+        font-size: 1.2em;
+        color: #6ec3ff;
+    }
+        .PhoneMenuItemButton.Selected[b-2cqxxtf0tq]:before {
+            content: "— ";
+        }
+        .PhoneMenuItemButton.Selected[b-2cqxxtf0tq]:after {
+            content: " —";
+        }
+    .PhoneMenuItemButton:hover[b-2cqxxtf0tq] {
+        background: #282b2e;
+    }
+
+.PhoneAddButton[b-2cqxxtf0tq] {
+    font-weight: 300;
+    font-size: 30px;
+    opacity: 0.5;
+    cursor: pointer;
+    line-height: 21px;
+}
+
+.PhoneAddButton:hover[b-2cqxxtf0tq] {
+    opacity: 1;
+}
+
+.PhoneAddFactionButton[b-2cqxxtf0tq] {
+    color: green;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 5px 15px;
+    opacity: 0.7;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .PhoneAddFactionButton:hover[b-2cqxxtf0tq] {
+        opacity: 1;
+    }
+/* /Components/CharacterSelector.razor.rz.scp.css */
+.PbtASystemContainer[b-e7fr5zfkt9] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+}
+
+.Visible[b-e7fr5zfkt9] {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background: #00000082;
+    position: fixed;
+    z-index: 10;
+    overflow-y: scroll;
+    background: var(--Darker);
+}
+
+.Hidden[b-e7fr5zfkt9]{
+    display: none;
+}
+
+.Content[b-e7fr5zfkt9] {
+    background: #1C1E20;
+    color: white;
+    padding: 2em;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+
+.CharacterButton[b-e7fr5zfkt9] {
+    cursor: pointer;
+    border-radius: 1em;
+    background: #24262B;
+    margin: 0.1em;
+    padding: 1em;
+    width: 300px;
+}
+    .CharacterButton:hover[b-e7fr5zfkt9] {
+        background: #2E3138;
+    }
+.PCCharacter[b-e7fr5zfkt9] {
+    border: 1px solid #ff00008f;
+}
+
+.FactionTittle[b-e7fr5zfkt9] {
+    font-size: 1.5em;
+    border-bottom: 0.1em solid #7577a9;
+    line-height: 0.95em;
+    margin-bottom: 0.2em;
+}
+
+.MenuButton[b-e7fr5zfkt9] {
+    background: #24262B;
+    color: white;
+    cursor: pointer;
+    border-radius:1em;
+    padding:1em;
+    width:25%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+    .MenuButton:hover[b-e7fr5zfkt9] {
+        background: #2E3138;
+    }
+
+.ExitButton[b-e7fr5zfkt9] {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    cursor:pointer;
+}
+
+.ActiveMenuButton[b-e7fr5zfkt9] {
+    border-radius: 0 0 1em 1em;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    padding: 1em;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mortalis[b-e7fr5zfkt9] {
+    background: #355247;
+}
+.Night[b-e7fr5zfkt9] {
+    background: #4f5c81;
+}
+.Power[b-e7fr5zfkt9] {
+    background: #642a2a;
+}
+.Wild[b-e7fr5zfkt9] {
+    background: #4f1d50;
+}
+.MortalisBorder[b-e7fr5zfkt9] {
+    border-color: #355247;
+}
+
+.NightBorder[b-e7fr5zfkt9] {
+    border-color: #4f5c81;
+}
+
+.PowerBorder[b-e7fr5zfkt9] {
+    border-color: #642a2a;
+}
+
+.WildBorder[b-e7fr5zfkt9] {
+    border-color: #4f1d50;
+}
+
+.Darker[b-e7fr5zfkt9] {
+    background: #1C1E20;
+}
+/* /Components/CharacterSheet/MoveViewer.razor.rz.scp.css */
+.PbtASystemContainer[b-bcgm4ev0sy] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+    background: #25282C;
+    font-family: Roboto;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    height:100%;
+    /*
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    */
+}
+
+.FullScreenModal[b-bcgm4ev0sy] {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 250ms ease;
+}
+
+.HideModal[b-bcgm4ev0sy] {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.ModalBody[b-bcgm4ev0sy] {
+    width: 75%;
+    display: flex;
+    background: var(--Middle);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ImagesContainer img[b-bcgm4ev0sy] {
+    aspect-ratio: 1 / 1;
+    width: 20px;
+    height: 20px;
+}
+
+.DiceButton[b-bcgm4ev0sy]{
+    width:28px !important;
+    height:28px !important;
+}
+
+.Box[b-bcgm4ev0sy] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    padding: 5px;
+}
+
+.TextContainer[b-bcgm4ev0sy] {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    overflow: hidden;
+    gap: 5px;
+}
+
+.TextTitle[b-bcgm4ev0sy] {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ImagesContainer[b-bcgm4ev0sy] {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.RollDetails[b-bcgm4ev0sy] {
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 5px;
+    opacity: 0.8;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.Innactive[b-bcgm4ev0sy]{
+    opacity:50%; 
+}
+.ShowFull[b-bcgm4ev0sy]{
+    opacity: 100%
+}
+.Innactive .DiceButton[b-bcgm4ev0sy] {
+    opacity: 0.25;
+}
+
+.Hidden[b-bcgm4ev0sy]{
+    display:none;
+}
+
+.IsSelected[b-bcgm4ev0sy] {
+    background: #30353A;
+    border: 1px solid #545454;
+}
+
+.MoveBody[b-bcgm4ev0sy] {    
+    padding-top:0;
+    font-size:14px;
+    font-weight: 200;
+    height: 0;
+    overflow: hidden;
+}
+.IsSelected .MoveBody[b-bcgm4ev0sy] {
+    display: flex;
+    padding: 10px;
+    height: auto;
+}
+
+.Advanced[b-bcgm4ev0sy] {
+    border-radius: 5px;
+    background: #182418;
+    display:flex;
+    align-items:center;
+    padding: 5px;
+    gap:5px;
+    margin-top:15px;
+}
+.AdvancedMainText[b-bcgm4ev0sy]{
+    flex-grow:1;
+}
+.AdvancedNOT[b-bcgm4ev0sy]{
+    opacity:0.5;
+    background: var(--Darker);
+}
+
+.LIOBox[b-bcgm4ev0sy] {
+    border: 1px solid #521010;
+    padding: 5px;
+    margin: 5px;
+    background: black;
+}
+
+.LIOContainer[b-bcgm4ev0sy] {
+    padding: 10px;
+    padding-inline: 5px;
+}
+
+
+
+/* /Components/CharacterSheet/StatViewer.razor.rz.scp.css */
+.PbtASystemContainer[b-6um91l5aly] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+    padding: 10px 8px;
+}
+
+.FullScreenModal[b-6um91l5aly] {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 250ms ease;
+}
+
+.HideModal[b-6um91l5aly] {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.ModalBody[b-6um91l5aly] {
+    width: 75%;
+    display: flex;
+    background: var(--Darker);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CloseButton[b-6um91l5aly]{
+    position:fixed;
+    right:10px;
+    top:10px;
+    width:30px;
+    height:30px;
+    background-image:url('/imgs/Icons/Close.svg');
+    cursor:pointer;
+}
+
+.prevent-select[b-6um91l5aly] {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.CircleTick[b-6um91l5aly] {
+    background: #360B0B;
+}
+
+.StatViewer[b-6um91l5aly] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0px;
+}
+
+.StatViewerCircle[b-6um91l5aly]{
+    padding-top: 3px;
+    padding-bottom:8px;
+}
+
+.Balloon[b-6um91l5aly] {
+    opacity: 0.5;
+    border: 1px solid white;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.FilledIn[b-6um91l5aly]{
+    background: white;
+}
+/* /Components/ConfirmationModal.razor.rz.scp.css */
+.PbtASystemContainer[b-18gvsuf4hl] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+}
+
+.ShowModal[b-18gvsuf4hl] {
+    visibility: visible;
+}
+.HideModal[b-18gvsuf4hl] {
+    visibility: collapse;
+}
+
+.ModalBackDrop[b-18gvsuf4hl] {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background: #000000b8;
+    z-index: 20;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ModalContainer[b-18gvsuf4hl]{
+    background: var(--Darker);
+    color:white;
+    padding:20px;
+    width:70%;
+}
+
+.ModalHeader[b-18gvsuf4hl]{
+    font-weight:bold;
+    font-size:20px;
+}
+.ModalBody[b-18gvsuf4hl]{
+    padding:39px;
+}
+/* /Components/DebtViewer.razor.rz.scp.css */
+.PbtASystemContainer[b-5n7bpo5vn2] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+}
+
+.DebtContainer[b-5n7bpo5vn2] {
+    background: var(--Middle);
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+}
+.FirstColumn[b-5n7bpo5vn2]{
+    min-width:25%;
+}
+.TheOther[b-5n7bpo5vn2] {
+    background: var(--Lighter);
+    margin: 5px;
+    padding: 5px 10px;
+    display:flex;
+    justify-content:center;
+    cursor: pointer;
+    border-radius:5px;
+}
+    .TheOther:hover[b-5n7bpo5vn2] {
+        background: #5e5a5a;
+    }
+
+.ClossingButton[b-5n7bpo5vn2]{
+    color:red;
+    margin:5px;
+    padding: 5px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.ClossingButton:hover[b-5n7bpo5vn2]{
+    opacity:1;
+}
+
+.Amount[b-5n7bpo5vn2]{
+    cursor:pointer;
+}
+    .Amount:hover[b-5n7bpo5vn2] {
+        background: #5e5a5a;
+    }
+/* /Components/RollToast.razor.rz.scp.css */
+.Red[b-ktf7tmelbz] {
+    background: rgb(128,30,30);
+    background: linear-gradient(0deg, rgba(128,30,30,1) 0%, rgba(200,40,40,1) 100%);
+    border: 1px solid #EDA0A0;
+    color: white;
+}
+
+.Yellow[b-ktf7tmelbz] {
+    background: rgb(156,83,30);
+    background: linear-gradient(0deg, rgba(156,83,30,1) 0%, rgba(227,118,16,1) 100%);
+    border: 1px solid #F0B47C;
+    color: white;
+}
+
+.Green[b-ktf7tmelbz] {
+    background: rgb(24,72,35);
+    background: linear-gradient(0deg, rgba(24,72,35,1) 0%, rgba(19,118,41,1) 100%);
+    border: 1px solid #A0EDB1;
+    color:white;
+}
+
+.Golden[b-ktf7tmelbz] {
+    background: rgb(231,142,104);
+    background: linear-gradient(0deg, rgba(231,142,104,1) 0%, rgba(249,198,68,1) 100%);
+    border: 1px solid #FAFF00;
+    color: black;
+}
+
+.Name[b-ktf7tmelbz]{
+    font-weight:bold;
+    font-size: 20px;
+}
+.MoveName[b-ktf7tmelbz] {
+    font-weight: 100;
+    opacity: 0.8;
+    font-size: 16px;
+    margin-top: -9px;
+}
+.RollText[b-ktf7tmelbz] {
+    font-weight: normal;
+    font-size: 20px;
+}
+.Result[b-ktf7tmelbz] {
+    font-weight: bold;
+    font-size: 32px;
+}
+.Outer[b-ktf7tmelbz]{
+    margin-top:-6px;
+    height:150px;
+    position: relative;
+}
+.Upper[b-ktf7tmelbz]{
+    display:flex;
+    flex-direction:column;
+    gap:-3px;
+}
+
+.CloseButton[b-ktf7tmelbz] {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url('/imgs/Icons/Close.svg');
+    cursor: pointer;
+}
+/* /Components/StringEditorUI.razor.rz.scp.css */
+.Visible[b-5liips1twb]{
+    visibility: visible;
+}
+
+.Hidden[b-5liips1twb]{
+    visibility: collapse;
+}
+/* /Components/Track.razor.rz.scp.css */
+.PbtASystemContainer[b-my73jaszzf] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+}
+
+.Box[b-my73jaszzf]{
+    width: 25px;
+    aspect-ratio: 1/1 !important;
+    border: 1px solid white;
+    cursor:pointer;
+    opacity: 0.8;
+}
+.Box:hover[b-my73jaszzf]{
+    opacity: 1;
+}
+
+.BoxTicked[b-my73jaszzf]{
+    background: white;
+}
+/* /Pages/CharacterEditor.razor.rz.scp.css */
+.PbtASystemContainer[b-6zx7y03fec] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+}
+
+.BackPanel[b-6zx7y03fec] {
+    background: var(--Darker);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.FAB[b-6zx7y03fec] {
+    display: flex;
+    gap: 0.5em;
+    margin: 0 0.5em;
+}
+
+.green[b-6zx7y03fec] {
+    color: green;
+}
+
+.red[b-6zx7y03fec] {
+    color: red;
+}
+
+.PanelButton[b-6zx7y03fec] {
+    font-size: 3em;
+    opacity: 0.5;
+    cursor: pointer;
+}
+    .PanelButton:hover[b-6zx7y03fec] {
+        opacity: 1;
+    }
+
+.DataBox[b-6zx7y03fec] {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+    .DataBox .DataHeader[b-6zx7y03fec] {
+    }
+    .DataBox .DataBody[b-6zx7y03fec] {
+        min-width: 350px;
+    }
+    .DataBody textarea[b-6zx7y03fec]{
+        width: 100%;
+    }
+
+.DataBoxSmall[b-6zx7y03fec]{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    margin-bottom:5px;
+}
+    .DataBoxSmall .DataHeader[b-6zx7y03fec] {
+        min-width: 65px;
+        text-align: right;
+    }
+    .DataBoxSmall .DataBody[b-6zx7y03fec] {
+        width:160px;
+        background: green;
+    }
+.DataBody input[b-6zx7y03fec]{
+    background:red;
+}
+
+.BlackIinput[b-6zx7y03fec] {
+    background: var(--Middle);
+    color: white;
+    border: none;
+}
+
+.BlackTextarea[b-6zx7y03fec] {
+    background: var(--Middle);
+    color: white;
+    border: none;
+}
+/* /Pages/CharacterViewer.razor.rz.scp.css */
+.PbtASystemContainer[b-wk3vcocfr2] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+}
+
+.ImageButton[b-wk3vcocfr2] {
+    background: #ffffff6e;
+    border-radius: 50%;
+    padding: 10px;
+    aspect-ratio: 1/1;
+    margin-top: 5px;
+    cursor:pointer;
+    width:44px;
+    height:44px;
+    display:grid;
+    place-items:center;
+}
+
+.DebtsColmns[b-wk3vcocfr2]{
+
+}
+.DebtsColmnsPhone[b-wk3vcocfr2] {
+    width: 97vw;
+    margin-left: -40px;
+}
+
+.ImageButton:hover[b-wk3vcocfr2] {
+    background: white;
+}
+.ImageButton:hover .bi[b-wk3vcocfr2]{
+    font-size:1.1em;
+    margin-top:-1px;
+}
+.BackButton[b-wk3vcocfr2]{
+    color:black;
+}
+
+.AddDebtButton[b-wk3vcocfr2] {
+    opacity: 0.5;
+    aspect-ratio: 1/1;
+    cursor:pointer;
+}
+    .AddDebtButton:hover[b-wk3vcocfr2]{
+        opacity:1;
+    }
+
+    .Edit[b-wk3vcocfr2] {
+        color: #0c500c;
+    }
+
+.Delete[b-wk3vcocfr2] {
+    color: #850e0e;
+}
+
+.ImageCanvas[b-wk3vcocfr2] {
+    background-repeat: no-repeat;
+    aspect-ratio: 1 / 1;
+    background-size: contain;
+    position: relative;
+}
+
+.ImageCanvas img[b-wk3vcocfr2] {
+    width: 100%;
+}
+
+    .ImageCanvas .UpperButtons[b-wk3vcocfr2] {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0 5px;
+    }
+
+.CharacterEntryBox[b-wk3vcocfr2]{
+    border-left:1px solid  gray;
+    padding-left: 0.5em;
+    margin-left: -0.5em;
+}
+.CharacterEntryHeader[b-wk3vcocfr2]{
+    font-size:1.1em;
+}
+.CharacterEntryBody[b-wk3vcocfr2]{
+    opacity:0.7;
+    padding-left:0.5em;
+}
+
+.NameDiv[b-wk3vcocfr2] {
+    background: #0000008e;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/* /Pages/DebEditor.razor.rz.scp.css */
+.PbtASystemContainer[b-60ad610b62] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+}
+
+.TheOther[b-60ad610b62] {
+    background: var(--Lighter);
+    margin: 5px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+    .TheOther:hover[b-60ad610b62] {
+        background: var(--HoverLight);
+    }
+
+.fullpage[b-60ad610b62] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.floatingContainer[b-60ad610b62]{
+    background: var(--Middle);
+    padding:2em;
+    border-radius:10px;
+    width:75%;
+}
+
+.FAB[b-60ad610b62]{
+    position:fixed;
+    top:0;
+    right:0;
+    display:flex;
+    z-index:11;
+    gap:0.5em;
+    margin:1em;
+}
+.PanelButton[b-60ad610b62] {
+    font-size: 3em;
+    opacity: 0.5;
+    cursor: pointer;
+}
+    .PanelButton:hover[b-60ad610b62] {
+        opacity: 1;
+    }
+
+.green[b-60ad610b62]{
+    color:green;
+}
+.red[b-60ad610b62]{
+    color:red;
+}
+
+.mainInput[b-60ad610b62] {
+    width: 100%;
+}
+/* /Pages/FactionViewer.razor.rz.scp.css */
+.PbtASystemContainer[b-ne3lruxvdd] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+}
+
+.Title[b-ne3lruxvdd]{
+    font-size:2em;
+    margin-bottom:-10px;
+}
+.SubTitle[b-ne3lruxvdd]{
+    font-size:1.5em;
+    opacity:0.5;
+    margin-bottom:20px;
+}
+
+.Entry[b-ne3lruxvdd]{
+    margin:20px 0px;
+    border-left: 1px solid gray;
+    padding-left: 10px;
+}
+.EntryTitlte[b-ne3lruxvdd]{
+
+}
+.EntryBody[b-ne3lruxvdd]{
+    padding-left: 20px;
+    opacity:0.8;
+}
+
+.Explanation[b-ne3lruxvdd]{
+    font-size:0.8em;
+}
+/* /Pages/Playing.razor.rz.scp.css */
+.PbtASystemContainer[b-yd8fvryjit] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+    
+    background: black;
+    font-family: Roboto;
+    font-size: 14px;
+    height:100%;
+}
+
+.Darker[b-yd8fvryjit]{
+    background: var(--Darker);
+}
+
+.prevent-select[b-yd8fvryjit] {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.FullScreenModal[b-yd8fvryjit] {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 800;
+    background-color: rgba(0,0,0,0.85);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 250ms ease;
+    overflow-y:auto;
+}
+.ModalTop[b-yd8fvryjit]{
+    align-items:flex-start;
+}
+
+.HideModal[b-yd8fvryjit] {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.ModalBody[b-yd8fvryjit] {
+    width: 75%;
+    display: flex;
+    background: black;
+    padding: 30px;
+    padding-top: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CloseButton[b-yd8fvryjit] {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url('/imgs/Icons/Close.svg');
+    cursor: pointer;
+}
+
+/*************************/
+.StatsArea[b-yd8fvryjit] {
+    background: black;
+}
+
+.CorruptionArea[b-yd8fvryjit]{
+    font-size:16px;
+    font-weight:300;
+    padding: 7px;
+    justify-content:center; 
+}
+.CorruptionArea div[b-yd8fvryjit]{
+    cursor:pointer;
+}
+
+.ArmorContainer[b-yd8fvryjit] {
+    background: url(/imgs/Icons/Shield.png);
+    width: 30px;
+    height: 32px;
+    display: grid;
+    place-content: center;
+    font-size: 20px;
+    padding-left: 1px;
+    opacity: 0.75;
+    color: #ffffffb3;
+    position: relative;
+    cursor:pointer;
+}
+    .ArmorContainer div[b-yd8fvryjit] {
+        position: relative;
+        top: 50%;
+        right: 50%;
+        left: 50%;
+        transform: translateX(-51%) translateY(-55%);
+    }
+
+.WoundsContainer[b-yd8fvryjit]{
+    display: flex;
+    gap:5px;
+    padding:5px;
+    border-radius:5px;
+}
+.Soft[b-yd8fvryjit] {
+    border: 1px solid #2E6D30;
+}
+.Mid[b-yd8fvryjit] {
+    border: 1px solid #A44712;
+}
+.Hard[b-yd8fvryjit] {
+    border: 1px solid #C70606;
+}
+
+.Wound[b-yd8fvryjit]{
+    width:20px;
+    height: 20px;
+    cursor:pointer;
+}
+.SoftInner[b-yd8fvryjit] {
+    background: #1F371B;
+}
+.MidInner[b-yd8fvryjit] {
+    background: #4E3005;
+}
+.HardInner[b-yd8fvryjit] {
+    background: #581111;
+}
+.WoundMark[b-yd8fvryjit] {
+    background: url(/imgs/Icons/BloodSplat.png);
+}
+
+.MovesSelector[b-yd8fvryjit] {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 14px;
+    padding-inline: 5px;
+    background: var(--Darker);
+}
+.MovesArea[b-yd8fvryjit] {
+    background: var(--Darker);
+}
+.MovesArea button[b-yd8fvryjit]{
+    border: 1px solid gray;
+    color: gray;
+}
+
+.MovesButton[b-yd8fvryjit] {
+    cursor: pointer;
+    opacity: 0.7;
+    display: grid;
+    place-content: center;
+}
+.MovesButton:hover[b-yd8fvryjit]{
+    opacity:1;
+}
+.Current[b-yd8fvryjit]{
+    color:black;
+    background:white;
+    border-radius:5px;
+    opacity:1;
+    padding:4px;
+    padding-inline:7px;
+    font-weight:500;
+}
+
+button[b-yd8fvryjit] {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.ExtraActions[b-yd8fvryjit] {
+    padding: 20px;
+}
+.ExtraActions button[b-yd8fvryjit]{
+    border-radius:50px;
+    width: 70%;
+}
+
+.ExtraButton[b-yd8fvryjit]{
+    background:var(--Lighter);
+    cursor:pointer;
+}
+
+.DarkAccordion[b-yd8fvryjit]{
+    background:var(--Darker);
+}
+
+.DarkAccordionItem[b-yd8fvryjit]{
+    background: #1C1E20;
+}
+.DarkAccordionHeader[b-yd8fvryjit] {
+    background: #1C1E20;
+    padding: 5px;
+    cursor: pointer;
+}
+.DarkAccordionBody[b-yd8fvryjit] {
+    padding: 10px;
+}
+.DarkAccordionNotSelected[b-yd8fvryjit]{
+    opacity: 0.5;
+}
+
+.accordionMovement[b-yd8fvryjit] {
+    width: 80%;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-tv3ij0rr84] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-tv3ij0rr84] {
+    flex: 1;
+}
+
+.sidebar[b-tv3ij0rr84] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-tv3ij0rr84] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-tv3ij0rr84]  a, .top-row[b-tv3ij0rr84]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-tv3ij0rr84]  a:hover, .top-row[b-tv3ij0rr84]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-tv3ij0rr84]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-tv3ij0rr84] {
+        display: none;
+    }
+
+    .top-row.auth[b-tv3ij0rr84] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-tv3ij0rr84]  a, .top-row[b-tv3ij0rr84]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-tv3ij0rr84] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-tv3ij0rr84] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-tv3ij0rr84] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-tv3ij0rr84]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-tv3ij0rr84], article[b-tv3ij0rr84] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/Menu.razor.rz.scp.css */
+
