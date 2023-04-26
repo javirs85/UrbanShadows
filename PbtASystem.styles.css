@@ -442,7 +442,7 @@
     top:10px;
     width:30px;
     height:30px;
-    background-image:url('/imgs/Icons/Close.svg');
+    background-image:url('imgs/Icons/Close.svg');
     cursor:pointer;
 }
 
@@ -630,7 +630,7 @@
     top: 10px;
     width: 30px;
     height: 30px;
-    background-image: url('/imgs/Icons/Close.svg');
+    background-image: url('imgs/Icons/Close.svg');
     cursor: pointer;
 }
 /* /Components/StringEditorUI.razor.rz.scp.css */
@@ -1016,7 +1016,7 @@
     top: 10px;
     width: 30px;
     height: 30px;
-    background-image: url('/imgs/Icons/Close.svg');
+    background-image: url('imgs/Icons/Close.svg');
     cursor: pointer;
 }
 
@@ -1036,7 +1036,7 @@
 }
 
 .ArmorContainer[b-yd8fvryjit] {
-    background: url(/imgs/Icons/Shield.png);
+    background: url(imgs/Icons/Shield.png);
     width: 30px;
     height: 32px;
     display: grid;
@@ -1087,7 +1087,7 @@
     background: #581111;
 }
 .WoundMark[b-yd8fvryjit] {
-    background: url(/imgs/Icons/BloodSplat.png);
+    background: url(imgs/Icons/BloodSplat.png);
 }
 
 .MovesSelector[b-yd8fvryjit] {
