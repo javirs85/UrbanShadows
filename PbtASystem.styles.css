@@ -1037,14 +1037,24 @@
     padding: 10px;
 }
 
-.Pack[b-b0robik6u2]{
-    padding-left: 10px;
+.Pack[b-b0robik6u2] {
+    margin-bottom: 10px;
 }
 
-.Pack div[b-b0robik6u2]{
-    padding: 5px;
-    cursor:pointer;
-}
+    .Pack div[b-b0robik6u2] {
+        padding: 5px;
+        padding-left: 10px;
+        cursor: pointer;
+        background-color: #1C1E20;
+        margin: 5px;
+    }
+    .Pack h4[b-b0robik6u2] {
+        font-size: 16px;
+        opacity: 0.75;
+        text-transform: uppercase;
+        margin-top: 41px;
+        margin-left: 5px;
+    }
 
 .Used0[b-b0robik6u2] {
     background-color: transparent;
