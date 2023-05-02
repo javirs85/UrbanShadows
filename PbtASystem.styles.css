@@ -399,6 +399,11 @@
     background: var(--Darker);
 }
 
+.AdvancedYEs[b-bcgm4ev0sy] {
+    opacity: 1;
+    background-color:transparent;
+}
+
 .LIOBox[b-bcgm4ev0sy] {
     border: 1px solid #521010;
     padding: 5px;
@@ -411,6 +416,20 @@
     padding-inline: 5px;
 }
 
+.MasterSelected[b-bcgm4ev0sy]{
+    border: 1px solid green;
+    padding: 5px;
+}
+
+.green[b-bcgm4ev0sy]{
+    border-color:green;
+}
+.red[b-bcgm4ev0sy] {
+    border-color: red;
+}
+.orange[b-bcgm4ev0sy] {
+    border-color: orange;
+}
 
 
 /* /Components/CharacterSheet/StatViewer.razor.rz.scp.css */
@@ -934,6 +953,32 @@
 .mainInput[b-60ad610b62] {
     width: 100%;
 }
+/* /Pages/FactionPhase.razor.rz.scp.css */
+.PbtASystemContainer[b-zft4y6jaou] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+    background: black;
+    font-family: Roboto;
+    font-size: 14px;
+    height: 100%;
+}
+
+.Darker[b-zft4y6jaou] {
+    background: #1C1E20;
+}
+
+.MovesArea[b-zft4y6jaou] {
+    background: var(--Darker);
+}
+.PackHeader[b-zft4y6jaou] {
+    opacity: 0.8;
+    font-size:20px;
+}
+.Pack[b-zft4y6jaou]{
+    border: 1px solid gray;
+}
 /* /Pages/FactionViewer.razor.rz.scp.css */
 .PbtASystemContainer[b-ne3lruxvdd] {
     --Darker: #1C1E20;
@@ -967,6 +1012,51 @@
 
 .Explanation[b-ne3lruxvdd]{
     font-size:0.8em;
+}
+/* /Pages/Master.razor.rz.scp.css */
+.PbtASystemContainer[b-b0robik6u2] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+    background: black;
+    font-family: Roboto;
+    font-size: 14px;
+    height: 100%;
+}
+
+.Darker[b-b0robik6u2]{
+    background-color: var(--Darker) !important;
+}
+
+.headerbutton[b-b0robik6u2]{
+    cursor: pointer
+}
+
+.Item[b-b0robik6u2] {
+    padding: 10px;
+}
+
+.Pack[b-b0robik6u2]{
+    padding-left: 10px;
+}
+
+.Pack div[b-b0robik6u2]{
+    padding: 5px;
+    cursor:pointer;
+}
+
+.Used0[b-b0robik6u2] {
+    background-color: transparent;
+}
+.Used1[b-b0robik6u2] {
+    background: #6e4200;
+}
+.Used2[b-b0robik6u2] {
+    background: #890000;
+}
+.RolledValue[b-b0robik6u2]{
+    font-size: 24px;
 }
 /* /Pages/Playing.razor.rz.scp.css */
 .PbtASystemContainer[b-yd8fvryjit] {
