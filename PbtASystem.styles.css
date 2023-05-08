@@ -516,6 +516,47 @@
 .FilledIn[b-6um91l5aly]{
     background: white;
 }
+/* /Components/ClockWidgetr.razor.rz.scp.css */
+.PbtASystemContainer[b-r0qbhurmds] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+    --Green: #13480B;
+    --Orange: #3F351C;
+    --Red: #501717;
+    background: black;
+    font-family: Roboto;
+    font-size: 14px;
+    height: 100%;
+}
+
+.ClockNumber[b-r0qbhurmds] {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.Darker[b-r0qbhurmds]{
+    background-color: var(--Darker);
+}
+
+.early[b-r0qbhurmds] {
+    border-color: var(--Green);
+    background-color: var(--Green);
+}
+
+.mid[b-r0qbhurmds] {
+    border-color: var(--Orange);
+    background-color: var(--Orange);
+}
+
+.late[b-r0qbhurmds] {
+    border-color: var(--Red);
+    background-color: var(--Red);
+}
 /* /Components/ConfirmationModal.razor.rz.scp.css */
 .PbtASystemContainer[b-18gvsuf4hl] {
     --Darker: #1C1E20;
@@ -885,6 +926,72 @@
     font-size: 1.5em;
     font-weight: bold;
 }
+/* /Pages/ClockViewer.razor.rz.scp.css */
+.PbtASystemContainer[b-jrhwnrjxkl] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+    --Green: #13480B;
+    --Orange: #3F351C;
+    --Red: #501717;
+
+    background: black;
+    font-family: Roboto;
+    font-size: 14px;
+    height: 100%;
+}
+.ClockNumber[b-jrhwnrjxkl] {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.early[b-jrhwnrjxkl] {
+    border-color: var(--Green);
+    background-color: var(--Green);
+}
+.mid[b-jrhwnrjxkl] {
+    border-color: var(--Orange);
+    background-color: var(--Orange);
+}
+.late[b-jrhwnrjxkl] {
+    border-color: var(--Red);
+    background-color: var(--Red);
+}
+.earlyBorder[b-jrhwnrjxkl] {
+    border: 2px solid var(--Green);
+}
+.midBorder[b-jrhwnrjxkl] {
+    border: 2px solid var(--Orange);
+}
+.lateBorder[b-jrhwnrjxkl] {
+    border: 2px solid var(--Red);
+}
+.active[b-jrhwnrjxkl]{
+    background-color: var(--Darker)
+}
+.NotActive[b-jrhwnrjxkl]{
+    border: none;
+    background-color:black;
+}
+.Old[b-jrhwnrjxkl]{
+    opacity: 0.5;
+}
+
+.ClockText[b-jrhwnrjxkl]{
+    background-color:black;
+}
+.ClockEntry[b-jrhwnrjxkl] {
+    display: flex;
+    border-left: none;
+    margin: 5px;
+}
+.textarea[b-jrhwnrjxkl] {
+    width: 100%;
+}
 /* /Pages/DebEditor.razor.rz.scp.css */
 .PbtASystemContainer[b-60ad610b62] {
     --Darker: #1C1E20;
@@ -1057,13 +1164,13 @@
     }
 
 .Used0[b-b0robik6u2] {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 .Used1[b-b0robik6u2] {
-    background: #6e4200;
+    background: #6e4200 !important;
 }
 .Used2[b-b0robik6u2] {
-    background: #890000;
+    background: #890000 !important;
 }
 .RolledValue[b-b0robik6u2]{
     font-size: 24px;
