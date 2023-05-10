@@ -1060,6 +1060,119 @@
 .mainInput[b-60ad610b62] {
     width: 100%;
 }
+/* /Pages/FactionEditor.razor.rz.scp.css */
+.PbtASystemContainer[b-23ubl207ft] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+    background: black;
+    font-family: Roboto;
+    font-size: 14px;
+    height: 100%;
+}
+.Darker[b-23ubl207ft] {
+    background: var(--Darker);
+}
+
+.FullScreenModal[b-23ubl207ft] {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 800;
+    background-color: rgba(0,0,0,0.85);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 250ms ease;
+    overflow-y: auto;
+}
+
+.ModalTop[b-23ubl207ft] {
+    align-items: flex-start;
+}
+
+.HideModal[b-23ubl207ft] {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.ModalBody[b-23ubl207ft] {
+    width: 75%;
+    display: flex;
+    background: black;
+    padding: 30px;
+    padding-top: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CloseButton[b-23ubl207ft] {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url('imgs/Icons/Close.svg');
+    cursor: pointer;
+}
+
+.FAB[b-23ubl207ft] {
+    position: absolute;
+    top: 55px;
+    right:5px;
+    display: flex;
+    gap: 0.5em;
+    margin: 0 0.5em;
+}
+
+.green[b-23ubl207ft] {
+    color: green;
+}
+
+.red[b-23ubl207ft] {
+    color: red;
+}
+
+.PanelButton[b-23ubl207ft] {
+    font-size: 3em;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+    .PanelButton:hover[b-23ubl207ft] {
+        opacity: 1;
+    }
+
+/*************************/
+
+.DataBoxSmall[b-23ubl207ft] {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+    .DataBoxSmall .DataHeader[b-23ubl207ft] {
+        min-width: 65px;
+        text-align: right;
+        padding-top: 5px;
+    }
+
+    .DataBoxSmall .DataBody[b-23ubl207ft] {
+        width: 160px;
+    }
+
+.DataBody input[b-23ubl207ft] {
+    background: red;
+}
 /* /Pages/FactionPhase.razor.rz.scp.css */
 .PbtASystemContainer[b-zft4y6jaou] {
     --Darker: #1C1E20;
@@ -1120,6 +1233,17 @@
 .Explanation[b-ne3lruxvdd]{
     font-size:0.8em;
 }
+
+.EditButton[b-ne3lruxvdd]{
+    width:40px;
+    opacity: 0.5;
+    cursor:pointer;
+}
+
+.EditButton:hover[b-ne3lruxvdd]{
+    opacity: 1;
+}
+
 /* /Pages/Master.razor.rz.scp.css */
 .PbtASystemContainer[b-b0robik6u2] {
     --Darker: #1C1E20;
