@@ -303,8 +303,9 @@
 
 .ImagesContainer img[b-bcgm4ev0sy] {
     aspect-ratio: 1 / 1;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }
 
 .DiceButton[b-bcgm4ev0sy]{
@@ -438,7 +439,6 @@
     --Middle: #24262B;
     --Lighter: #2E3138;
     --HoverLight: #5e5a5a;
-    padding: 10px 8px;
 }
 
 .FullScreenModal[b-6um91l5aly] {
@@ -497,12 +497,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1 1 0px;
+    justify-items: center;
+    height: 80px;
+    justify-content: center;
 }
 
-.StatViewerCircle[b-6um91l5aly]{
-    padding-top: 3px;
-    padding-bottom:8px;
+.StatViewerCircle[b-6um91l5aly] {
+    padding-top: 9px;
+    justify-content: start;
 }
 
 .Balloon[b-6um91l5aly] {
@@ -1371,17 +1373,23 @@
 
 /*************************/
 .StatsArea[b-yd8fvryjit] {
-    background: black;
+    background: var(--Darker);
 }
 
 .CorruptionArea[b-yd8fvryjit]{
     font-size:16px;
     font-weight:300;
-    padding: 7px;
+    padding: 18px;
     justify-content:center; 
+    gap: 20px;
 }
 .CorruptionArea div[b-yd8fvryjit]{
     cursor:pointer;
+}
+
+.DamageArea[b-yd8fvryjit] {
+    gap: 17px;
+    padding: 10px;
 }
 
 .ArmorContainer[b-yd8fvryjit] {
@@ -1395,7 +1403,7 @@
     opacity: 0.75;
     color: #ffffffb3;
     position: relative;
-    cursor:pointer;
+    cursor: pointer;
 }
     .ArmorContainer div[b-yd8fvryjit] {
         position: relative;
@@ -1483,10 +1491,11 @@ button[b-yd8fvryjit] {
 
 .ExtraActions[b-yd8fvryjit] {
     padding: 20px;
+    padding-top:5px;
 }
 .ExtraActions button[b-yd8fvryjit]{
     border-radius:50px;
-    width: 70%;
+    width: 100%;
 }
 
 .ExtraButton[b-yd8fvryjit]{
@@ -1515,6 +1524,119 @@ button[b-yd8fvryjit] {
 
 .accordionMovement[b-yd8fvryjit] {
     width: 80%;
+}
+/* /Pages/PlayingMoves.razor.rz.scp.css */
+.PbtASystemContainer[b-3yn6ro42aq] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+}
+
+
+.Black[b-3yn6ro42aq] {
+    background-color: black;
+}
+
+.Darker[b-3yn6ro42aq] {
+    background-color: var(--Darker);
+}
+
+.RoundButton[b-3yn6ro42aq]{
+    border-radius: 50px;
+    width:95%;
+}
+
+
+.FullScreenModal[b-3yn6ro42aq] {
+    position: fixed;
+    inset: 0px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 250ms ease 0s;
+    flex-direction: column;
+}
+
+.ModalTop[b-3yn6ro42aq] {
+    align-items: flex-start;
+}
+
+.HideModal[b-3yn6ro42aq] {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.DarkAccordionItem[b-3yn6ro42aq] {
+    background: #1C1E20;
+}
+
+.DarkAccordionHeader[b-3yn6ro42aq] {
+    background: #1C1E20;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.DarkAccordionBody[b-3yn6ro42aq] {
+    padding: 10px;
+}
+
+.DarkAccordionNotSelected[b-3yn6ro42aq] {
+    opacity: 0.5;
+}
+
+.accordionMovement[b-3yn6ro42aq] {
+    width: 80%;
+}
+
+.ModalBody[b-3yn6ro42aq] {
+    width: 100%;
+    display: flex;
+    background: var(--Middle);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CloseButton[b-3yn6ro42aq] {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url('imgs/Icons/Close.svg');
+    cursor: pointer;
+}
+
+.TopMenu[b-3yn6ro42aq] {
+    padding: 5px;
+}
+
+.TopMenuButton[b-3yn6ro42aq] {
+    background-color: var(--Middle);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 7px;
+}
+
+    .TopMenuButton:hover[b-3yn6ro42aq] {
+        background-color: var(--Lighter);
+    }
+
+.TopMenuButtonActive[b-3yn6ro42aq] {
+    background-color: white !important;
+    color: black;
 }
 /* /Pages/SheetCreation.razor.rz.scp.css */
 .PbtASystemContainer[b-lvfw9l7ol1] {
@@ -1607,6 +1729,47 @@ button[b-yd8fvryjit] {
     position: relative;
     display: flex;
     flex-direction: column;
+}
+
+.PbtASystemContainer[b-tv3ij0rr84] {
+    --Darker: #1C1E20;
+    --Middle: #24262B;
+    --Lighter: #2E3138;
+    --HoverLight: #5e5a5a;
+}
+
+.Black[b-tv3ij0rr84] {background-color:black;}
+.Darker[b-tv3ij0rr84] {background-color:var(--Darker);}
+
+.NoUserError[b-tv3ij0rr84]{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color:#5c0808ff;
+}
+
+.TopMenu[b-tv3ij0rr84] {
+    padding: 5px;
+}
+.TopMenuButton[b-tv3ij0rr84] {
+    background-color: var(--Middle);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 7px;
+}
+.TopMenuButton:hover[b-tv3ij0rr84]{
+    background-color: var(--Lighter);
+}
+.TopMenuButtonActive[b-tv3ij0rr84] {
+    background-color: white !important;
+    color: black;
 }
 
 main[b-tv3ij0rr84] {
