@@ -1262,6 +1262,17 @@
     background-color: var(--Darker) !important;
 }
 
+.CloseButton[b-b0robik6u2] {
+    width: 30px;
+    height: 30px;
+    background-image: url('imgs/Icons/Close.svg');
+    cursor: pointer;
+    opacity: 0.7;
+}
+.CloseButton:hover[b-b0robik6u2]{
+    opacity: 1;
+}
+
 .headerbutton[b-b0robik6u2]{
     cursor: pointer
 }
@@ -1638,92 +1649,6 @@ button[b-yd8fvryjit] {
     background-color: white !important;
     color: black;
 }
-/* /Pages/SheetCreation.razor.rz.scp.css */
-.PbtASystemContainer[b-lvfw9l7ol1] {
-    --Darker: #1C1E20;
-    --Middle: #24262B;
-    --Lighter: #2E3138;
-    --HoverLight: #5e5a5a;
-    background: black;
-    font-family: Roboto;
-    font-size: 14px;
-    height: 100%;
-}
-
-.Darker[b-lvfw9l7ol1] {
-    background: var(--Darker);
-}
-
-.prevent-select[b-lvfw9l7ol1] {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-}
-
-.FullScreenModal[b-lvfw9l7ol1] {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 800;
-    background-color: rgba(0,0,0,0.85);
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    opacity: 1;
-    pointer-events: all;
-    transition: opacity 250ms ease;
-    overflow-y: auto;
-}
-
-.ModalTop[b-lvfw9l7ol1] {
-    align-items: flex-start;
-}
-
-.HideModal[b-lvfw9l7ol1] {
-    opacity: 0;
-    pointer-events: none;
-}
-
-.ModalBody[b-lvfw9l7ol1] {
-    width: 75%;
-    display: flex;
-    background: black;
-    padding: 30px;
-    padding-top: 0;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.CloseButton[b-lvfw9l7ol1] {
-    position: fixed;
-    right: 10px;
-    top: 10px;
-    width: 30px;
-    height: 30px;
-    background-image: url('imgs/Icons/Close.svg');
-    cursor: pointer;
-}
-
-.pack[b-lvfw9l7ol1]{
-    padding: 5px;
-    display:flex;
-    flex-direction:column;
-}
-.Tittle[b-lvfw9l7ol1] {
-    font-size: 20px;
-}
-.Detail[b-lvfw9l7ol1] {
-    padding-left: 10px;
-    margin-bottom: 10px;
-}
-.Header[b-lvfw9l7ol1] {
-    margin-bottom: -8px;
-}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-tv3ij0rr84] {
     position: relative;
@@ -1847,5 +1772,3 @@ main[b-tv3ij0rr84] {
         padding-right: 1.5rem !important;
     }
 }
-/* /Shared/Menu.razor.rz.scp.css */
-
