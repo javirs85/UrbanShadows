@@ -1312,6 +1312,22 @@
 .RolledValue[b-b0robik6u2]{
     font-size: 24px;
 }
+
+.MasterContainer[b-b0robik6u2] {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MasterItem[b-b0robik6u2] {
+    width: 350px;
+}
+
+.LogCollection[b-b0robik6u2]{
+
+}
+.LogItem[b-b0robik6u2]{
+
+}
 /* /Pages/Playing.razor.rz.scp.css */
 .PbtASystemContainer[b-yd8fvryjit] {
     --Darker: #1C1E20;
@@ -1606,13 +1622,14 @@ button[b-yd8fvryjit] {
 
 .ModalBody[b-3yn6ro42aq] {
     width: 100%;
-    display: flex;
     background: var(--Middle);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    height: 100%;
+    overflow-y: auto;
 }
 
 .CloseButton[b-3yn6ro42aq] {
