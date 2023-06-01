@@ -120,7 +120,16 @@ export async function GetCharactersFromDB() {
         const ToReturn = [];
         querySnapshot.forEach((doc) => {
             console.log(`${doc.id} => ${doc.data()}`);
-            ToReturn.push(doc.data());
+            var data = doc.data();
+            /*
+            if (data.hasOwnProperty("sheetID") || !data["sheetID"]) {
+
+            }
+            else {
+                data["sheetID"] = "00000000-0000-0000-0000-000000000000";
+            }
+            */
+            ToReturn.push(data);
         });
         return ToReturn;
     } catch (e) {
