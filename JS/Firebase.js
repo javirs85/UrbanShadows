@@ -151,6 +151,44 @@ export async function GetFactionsFromDB() {
     }
 }
 
+/* SCAPE ROOM SHIT */
+
+export async function GetScapeRoomMessagesFromDB() {
+    try {
+        const querySnapshot = await getDocs(collection(db, "ScapeRoomMessages"));
+        const ToReturn = [];
+        querySnapshot.forEach((doc) => {
+            console.log(`${doc.id} => ${doc.data()}`);
+            ToReturn.push(doc.data());
+        });
+        return ToReturn;
+    } catch (e) {
+        console.error("Error retrieving scape room messages: ", e);
+    }
+}
+
+export async function StoreScapeRoomMessage(item) {
+    try {
+        await setDoc(doc(db, "ScapeRoomMessages", item.key), item);
+        return true;
+    } catch (e) {
+        console.error("Error storing ScapeRoomMessages: ", e);
+        return false;
+    }
+}
+
+export async function DeleteScapeRoomMessage(item) {
+    try {
+        const result = await deleteDoc(doc(db, "ScapeRoomMessages", item));
+        return true;
+    } catch (e) {
+        console.error("Error deleting ScapeRoomMessages: ", e);
+        return false;
+    }
+}
+
+/* END SCAPEROOM SHIT */
+
 export async function GetDebtsFromDB() {
     try {
         const querySnapshot = await getDocs(collection(db, "Debts"));
